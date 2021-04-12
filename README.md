@@ -9,14 +9,17 @@ There are many other solutions for this process and they all differ in style and
 Installation is easy with the included installer. See installationGuide.html for more details.
 
 ## MEL Commands
-`// Writes the skin cluster of the selected mesh to a file.
-icTransferSkinCluster 0 0`
+Writes the skin cluster of the selected mesh to a file.
 
-`// Opens a window to let you select the skin cluster weights to import.
-icTransferSkinCluster 1 0`
+`icTransferSkinCluster 0 0`
 
-`// Get a list of extraction commands for use in custom scripts.
-transferSkinCluster -h`
+// Opens a window to let you select the skin cluster weights to import.
+
+`icTransferSkinCluster 1 0`
+
+// Get a list of extraction commands for use in custom scripts.
+
+`transferSkinCluster -h`
 
 ## Usage
 **Export**
