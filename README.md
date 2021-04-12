@@ -13,11 +13,11 @@ Writes the skin cluster of the selected mesh to a file.
 
 `icTransferSkinCluster 0 0`
 
-// Opens a window to let you select the skin cluster weights to import.
+Open a window to select the skin cluster weights to import.
 
 `icTransferSkinCluster 1 0`
 
-// Get a list of extraction commands for use in custom scripts.
+Get a list of commands for use in custom scripts.
 
 `transferSkinCluster -h`
 
